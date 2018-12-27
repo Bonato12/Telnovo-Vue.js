@@ -48,7 +48,6 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    host: "192.168.0.103",
     overlay: true,
     headers: {
             'Access-Control-Allow-Origin': '*'
