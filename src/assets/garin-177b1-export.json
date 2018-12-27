@@ -1,0 +1,18 @@
+{
+  "persona" : {
+    "-LLjj_FXJKZPnyZ28S4W" : {
+      "Marca" : "Samsung",
+      "Modelo" : "J7",
+      "Caracteristicas" : "asdsa@asda",
+      "Precio" : 10000,
+      "imagen" : ""
+    },
+    "-LMJW-V8NMkm_wsprRW3" : {
+      "Marca" : "Samsung",
+      "Modelo" : "S9",
+      "Caracteristicas" : "asdsa@asda",
+      "Precio" : 10000,
+      "imagen" : "sda"
+    }
+  }
+}
