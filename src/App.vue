@@ -23,6 +23,12 @@
                 </div>
             </nav>
         <router-view></router-view>
+        <br>
+        <br>
+        <footer style="height:100px; background-color: #fec400;">
+
+        </footer>
+
   </div>
 </template>
 
@@ -34,35 +40,15 @@ export default {
   name: 'app',
   created(){
          this.$router.push("Home");
-    		 db.ref('persona').on('value',  snapshot => this.cargar(snapshot.val()))
 
   },
   data () {
     return {
-       Marca: null,
-       Modelo: null,
-       Caracteristicas: null,
-       Precio: null,
-       Imagen: null,
-       celulares: [],
-       slide: 0,
-      sliding: null
+
     }
   },
   methods:{
-    cargar(ListaFirebase){
-			this.celulares = [];
-			for (var key in ListaFirebase){
-				this.celulares.push({
-				Marca: ListaFirebase[key].Marca,
-				Modelo: ListaFirebase[key].Modelo,
-				Caracteristicas: ListaFirebase[key].Caracteristicas,
-				Precio: ListaFirebase[key].Precio,
-        Imagen: ListaFirebase[key].Imagen,
-        key: key
-				})
-      }
-  },
+
   onSlideStart (slide) {
       this.sliding = true
     },

@@ -1,83 +1,91 @@
 <template>
     <div id="app">
       <br>
-      <br>
         <div class="container">
           <carousel>
-              <slide id="motoG">
-                  <blink style="background-color:#fec400; float:right;">25% OFF</blink>
-                  <img src="../assets/Home/moto.jpg">
-                  <p><STRONG> MOTO G </STRONG> </p>
-                  <p> Pantalla 5.8", 1125 x 2436 pixels.
-                      Procesador Apple A11 Bionic.
-                      3GB RAM.
-                      64GB/256GB, sin microSD.
-                      Cámara: 12 MP, Dual.
-                      Batería: 2700 mAh.
-                      OS: iOS 11.
-                      Perfil: 7.7 mm.
-                  </p>
+              <slide >
+                  <div style="width: 35rem;">
+                      <img class="card-img-top" style="width: 19rem;" src="https://smartronicsec.com/wp-content/uploads/j8-black-960x960.png" alt="Card image cap">
+                      <div class="card-body">
+                          <p><STRONG> SAMSUNG J8 </STRONG> </p>
+                          <p>Pantalla 5.8", 1125 x 2436 pixels.
+                              Procesador Apple A11 Bionic.
+                              3GB RAM.
+                              64GB/256GB, sin microSD.
+                              Cámara: 12 MP, Dual.
+                              OS: iOS 11.
+                            </p>
+                          <a target="_blank" href="https://articulo.mercadolibre.com.ar/MLA-757742230-samsung-j8-2018-64gb-4gb-ram-originalesgarantiaenvio-_JM?variation=30037064946&quantity=1#reco_item_pos=2&reco_backend=machinalis-gauss&reco_backend_type=function&reco_client=navigation_homes&reco_id=c5d88d81-88fa-4669-8094-cfc21578982e&c_id=/home/navigation-recommendations/element&c_element_order=3" class="btn" style="background-color:#fec400; color:black;">Comprar en Mercado Libre</a>
+                      </div>
+                  </div>
               </slide>
               <slide>
-                  <blink style="background-color:#fec400; float:right;">10% OFF</blink>
-                  <img src="../assets/Home/celu.jpg">
-                  <p>
-                  <a target="_blank" title="Ir a Mercado Libre" href="https://articulo.mercadolibre.com.ar/MLA-759600302-celular-libre-samsung-j8-violeta-_JM?quantity=1">MOTOROLA </a>
-                  </p>
-                  <p> Pantalla 5.8", 1125 x 2436 pixels.
-                      Procesador Apple A11 Bionic.
-                      3GB RAM.
-                      64GB/256GB, sin microSD.
-                      Cámara: 12 MP, Dual.
-                      Batería: 2700 mAh.
-                      OS: iOS 11.
-                      Perfil: 7.7 mm.
-                  </p>
+                  <div style="width: 35rem;">
+                      <img class="card-img-top" style="width: 19rem;" src="../assets/Home/nokia.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <p><STRONG> MOTO G6 </STRONG> </p>
+                          <p>Pantalla 5.8", 1125 x 2436 pixels.
+                              Procesador Apple A11 Bionic.
+                              3GB RAM.
+                              64GB/256GB, sin microSD.
+                              Cámara: 12 MP, Dual.
+                              OS: iOS 11.
+                            </p>
+                          <a href="#" class="btn" style="background-color:#fec400; color:black;">Comprar en Mercado Libre</a>
+                      </div>
+                  </div>
               </slide>
               <slide>
-                  <blink style="background-color:#fec400; float:right;">20% OFF</blink>
-                  <img src="../assets/Home/celu1.jpg">
-                  <p><STRONG> XIAOMI </STRONG> </p>
-                  <p> Pantalla 5.8", 1125 x 2436 pixels.
-                      Procesador Apple A11 Bionic.
-                      3GB RAM.
-                      64GB/256GB, sin microSD.
-                      Cámara: 12 MP, Dual.
-                      Batería: 2700 mAh.
-                      OS: iOS 11.
-                      Perfil: 7.7 mm.
-                  </p>
-              </slide>
-              <slide>
-                  <blink style="background-color:#fec400; float:right;">50% OFF</blink>
-                  <img src="../assets/Home/s10.jpg">
-                  <p><STRONG> SAMSUNG </STRONG> </p>
-                  <p> Pantalla 5.8", 1125 x 2436 pixels.
-                      Procesador Apple A11 Bionic.
-                      3GB RAM.
-                      64GB/256GB, sin microSD.
-                      Cámara: 12 MP, Dual.
-                      Batería: 2700 mAh.
-                      OS: iOS 11.
-                      Perfil: 7.7 mm.
-                  </p>
+                <div style="width: 35rem;">
+                    <img class="card-img-top" style="width: 19rem;" src="../assets/Home/motoG.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p><STRONG> XIAOMI </STRONG> </p>
+                        <p>Pantalla 5.8", 1125 x 2436 pixels.
+                            Procesador Apple A11 Bionic.
+                            3GB RAM.
+                            64GB/256GB, sin microSD.
+                            Cámara: 12 MP, Dual.
+                            OS: iOS 11.
+                          </p>
+                        <a href="#" class="btn" style="background-color:#fec400; color:black;">Comprar en Mercado Libre</a>
+                    </div>
+                </div>
+
               </slide>
               <slide>
                   <blink style="background-color:#fec400; float:right;">50% OFF</blink>
-                  <img src="../assets/Home/iphone.jpg">
-                  <p><STRONG> IPHONE </STRONG> </p>
-                  <p> Pantalla 5.8", 1125 x 2436 pixels.
-                      Procesador Apple A11 Bionic.
-                      3GB RAM.
-                      64GB/256GB, sin microSD.
-                      Cámara: 12 MP, Dual.
-                      Batería: 2700 mAh.
-                      OS: iOS 11.
-                      Perfil: 7.7 mm.
-                  </p>
+                  <div style="width: 35rem;">
+                      <img class="card-img-top" style="width: 19rem;" src="https://elektra.vteximg.com.br/arquivos/ids/426301-1000-1000/31033152.jpg?v=636608839651630000" alt="Card image cap">
+                      <div class="card-body">
+                          <p><STRONG> IPHONE 6S </STRONG> </p>
+                          <p>Pantalla 5.8", 1125 x 2436 pixels.
+                              Procesador Apple A11 Bionic.
+                              3GB RAM.
+                              64GB/256GB, sin microSD.
+                              Cámara: 12 MP, Dual.
+                              OS: iOS 11.
+                            </p>
+                          <a href="#" class="btn" style="background-color:#fec400; color:black;">Comprar en Mercado Libre</a>
+                      </div>
+                  </div>
+              </slide>
+              <slide>
+                <div style="width: 35rem;">
+                    <img class="card-img-top" style="width: 19rem;" src="https://celutronic.com/wp-content/uploads/2017/10/iphone-x-64gb-lte-4g-negru-3gb-ram_10037694_1_1505311093.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p><STRONG> IPHONE X</STRONG> </p>
+                        <p>Pantalla 5.8", 1125 x 2436 pixels.
+                            Procesador Apple A11 Bionic.
+                            3GB RAM.
+                            64GB/256GB, sin microSD.
+                            Cámara: 12 MP, Dual.
+                            OS: iOS 11.
+                          </p>
+                        <a href="#" class="btn" style="background-color:#fec400; color:black;">Comprar en Mercado Libre</a>
+                    </div>
+                </div>
               </slide>
           </carousel>
-          <br>
           <div class="row">
               <div class="row" style="padding-left:55px;">
               <div style="width: 15rem; background-color:#fec400; color:black">
@@ -198,8 +206,14 @@ animation: blink 1s step-end infinite;
   text-align: center;
 }
 
-#motoG:hover {
 
+
+#motoG:hover {
+    background: url("../assets/Home/j8atras.jpg")  no-repeat;
+    float: center;
+    height: 300px;
+    width: 210px;
+    transition: .5s linear;
 }
 
 #arreglos{

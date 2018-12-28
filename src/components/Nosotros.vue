@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <br>
-      <div class="container contenedor" style="padding-top=30px;">
+      <div class="container contenedor" style="padding-top=30px; background-color:#fec400; color:black;">
         <div class="map">
               <img src="../assets/Nosotros/map.png">
               <br>
