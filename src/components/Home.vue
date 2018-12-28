@@ -3,7 +3,7 @@
       <br>
         <div class="container">
           <carousel>
-              <slide >
+              <slide>
                   <div style="width: 35rem;">
                       <img class="card-img-top" style="width: 19rem;" src="https://smartronicsec.com/wp-content/uploads/j8-black-960x960.png" alt="Card image cap">
                       <div class="card-body">
@@ -87,45 +87,52 @@
               </slide>
           </carousel>
           <div class="row">
-              <div class="row" style="padding-left:55px;">
-              <div style="width: 15rem; background-color:#fec400; color:black">
-                  <img  src="../assets/Home/envios.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">ENVIOS A TODO EL PAIS</h5>
-                    <p class="card-text">Trabajamos constantemente realizando envíos a todas las proviencias de Argentina</p>
-                  </div>
+                <div class="row" style="padding-left:55px;">
+                <div style="width: 15rem; background-color:#fec400; color:black">
+                    <img  src="../assets/Home/envios.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">ENVIOS A TODO EL PAIS</h5>
+                      <p class="card-text">Trabajamos constantemente realizando envíos a todas las proviencias de Argentina</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row" style="padding-left:55px;" >
+                <div  style="width: 15rem; background-color:#fec400; color:black">
+                    <img  src="../assets/Home/reparar.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">REPARACIONES</h5>
+                      <p class="card-text">Realizamos reparaciones de equipos con los mejores respuestos del mercado</p>
+                    </div>
+                </div>
               </div>
+                <br>
+                <div class="row" style="padding-left:55px;">
+                <div style="width: 15rem; background-color:#fec400; color:black">
+                    <img  src="../assets/Home/Actualizacion.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">ACTUALIZACIONES CONSTANTES</h5>
+                      <p class="card-text">Tenemos las últimas innovación del mercado internacional. Solo trabajamos con tecnología de primera calidad.</p>
+                    </div>
+                </div>
               </div>
-              <div class="row" style="padding-left:55px;" >
-              <div  style="width: 15rem; background-color:#fec400; color:black">
-                  <img  src="../assets/Home/reparar.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">REPARACIONES</h5>
-                    <p class="card-text">Realizamos reparaciones de equipos con los mejores respuestos del mercado</p>
-                  </div>
-              </div>
+                <br>
+                <div class="row" style="padding-left:55px;">
+                <div  style="width: 15rem; background-color:#fec400; color:black">
+                    <img  src="../assets/Home/comentarios.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">EXCELENTE REPUTACION</h5>
+                      <p class="card-text">Contamos con reputaciones excelentes en los sitios de compra y venta más renombrados de Argentina, con 100% de calificaciones positivas.</p>
+                    </div>
+                </div>
+                </div>
             </div>
-              <br>
-              <div class="row" style="padding-left:55px;">
-              <div style="width: 15rem; background-color:#fec400; color:black">
-                  <img  src="../assets/Home/Actualizacion.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">ACTUALIZACIONES CONSTANTES</h5>
-                    <p class="card-text">Tenemos las últimas innovación del mercado internacional. Solo trabajamos con tecnología de primera calidad.</p>
-                  </div>
-              </div>
+            <br>
+            <hr>
+            <h2>Marcas</h2>
+            <div>
+              <img src="../assets/Home/marcas.png" style="width:1000px;">
             </div>
-              <br>
-              <div class="row" style="padding-left:55px;">
-              <div  style="width: 15rem; background-color:#fec400; color:black">
-                  <img  src="../assets/Home/comentarios.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">EXCELENTE REPUTACION</h5>
-                    <p class="card-text">Contamos con reputaciones excelentes en los sitios de compra y venta más renombrados de Argentina, con 100% de calificaciones positivas.</p>
-                  </div>
-              </div>
-              </div>
-            </div>
+            <hr>
       </div>
   <br>
   <br>
