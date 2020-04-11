@@ -5,22 +5,6 @@
           <carousel>
               <slide>
                   <div style="width: 35rem;">
-                      <img class="card-img-top" style="width: 19rem;" src="https://smartronicsec.com/wp-content/uploads/j8-black-960x960.png" alt="Card image cap">
-                      <div class="card-body">
-                          <p><STRONG> SAMSUNG J8 </STRONG> </p>
-                          <p>Pantalla 5.8", 1125 x 2436 pixels.
-                              Procesador Apple A11 Bionic.
-                              3GB RAM.
-                              64GB/256GB, sin microSD.
-                              Cámara: 12 MP, Dual.
-                              OS: iOS 11.
-                            </p>
-                          <a target="_blank" href="https://articulo.mercadolibre.com.ar/MLA-757742230-samsung-j8-2018-64gb-4gb-ram-originalesgarantiaenvio-_JM?variation=30037064946&quantity=1#reco_item_pos=2&reco_backend=machinalis-gauss&reco_backend_type=function&reco_client=navigation_homes&reco_id=c5d88d81-88fa-4669-8094-cfc21578982e&c_id=/home/navigation-recommendations/element&c_element_order=3" class="btn" style="background-color:#fec400; color:black;">Comprar en Mercado Libre</a>
-                      </div>
-                  </div>
-              </slide>
-              <slide>
-                  <div style="width: 35rem;">
                       <img class="card-img-top" style="width: 19rem;" src="../assets/Home/nokia.jpg" alt="Card image cap">
                       <div class="card-body">
                           <p><STRONG> MOTO G6 </STRONG> </p>
@@ -88,8 +72,8 @@
           </carousel>
           <div class="row">
                 <div class="row" style="padding-left:55px;">
-                <div style="width: 15rem; background-color:#fec400; color:black">
-                    <img  src="../assets/Home/envios.png" alt="Card image cap">
+                <div style="width: 15rem; background-color:#fec400; border-radius: 2em; color:black">
+                    <img  src="../assets/Home/envios.png"  style="padding-top:30px;" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">ENVIOS A TODO EL PAIS</h5>
                       <p class="card-text">Trabajamos constantemente realizando envíos a todas las proviencias de Argentina</p>
@@ -97,8 +81,8 @@
                 </div>
                 </div>
                 <div class="row" style="padding-left:55px;" >
-                <div  style="width: 15rem; background-color:#fec400; color:black">
-                    <img  src="../assets/Home/reparar.png" alt="Card image cap">
+                <div  style="width: 15rem; background-color:#fec400; border-radius: 2em; color:black">
+                    <img  src="../assets/Home/reparar.png" style="padding-top:30px;" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">REPARACIONES</h5>
                       <p class="card-text">Realizamos reparaciones de equipos con los mejores respuestos del mercado</p>
@@ -107,8 +91,8 @@
               </div>
                 <br>
                 <div class="row" style="padding-left:55px;">
-                <div style="width: 15rem; background-color:#fec400; color:black">
-                    <img  src="../assets/Home/Actualizacion.png" alt="Card image cap">
+                <div style="width: 15rem; background-color:#fec400; border-radius: 2em; color:black">
+                    <img  src="../assets/Home/actualizacion.png" style="padding-top:30px;" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">ACTUALIZACIONES CONSTANTES</h5>
                       <p class="card-text">Tenemos las últimas innovación del mercado internacional. Solo trabajamos con tecnología de primera calidad.</p>
@@ -117,8 +101,8 @@
               </div>
                 <br>
                 <div class="row" style="padding-left:55px;">
-                <div  style="width: 15rem; background-color:#fec400; color:black">
-                    <img  src="../assets/Home/comentarios.png" alt="Card image cap">
+                <div  style="width: 15rem; background-color:#fec400; color:black; border-radius: 2em;">
+                    <img  src="../assets/Home/comentarios.png" style="padding-top:30px;" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">EXCELENTE REPUTACION</h5>
                       <p class="card-text">Contamos con reputaciones excelentes en los sitios de compra y venta más renombrados de Argentina, con 100% de calificaciones positivas.</p>
@@ -141,14 +125,14 @@
 
 <script>
 
-import {db} from '../firebase.js'
+//import {db} from '../firebase.js'
 
 export default {
   name: 'app',
   created(){
 
 
-    		 db.ref('persona').on('value',  snapshot => this.cargar(snapshot.val()))
+    		// db.ref('persona').on('value',  snapshot => this.cargar(snapshot.val()))
 
   },
   data () {
